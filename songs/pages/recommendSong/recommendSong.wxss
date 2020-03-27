@@ -1,0 +1,73 @@
+.recommendContainer .header{
+    position: relative;
+}
+.recommendContainer .header image{
+    width: 100%;
+    height: 300rpx;
+}
+.recommendContainer .date{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 200rpx;
+    height: 100rpx;
+    line-height: 100rpx;
+    text-align: center;
+    color: #fff;
+}
+.recommendContainer .date .day {
+    font-size: 40rpx;
+}
+/* 歌曲列表 */
+.recommendList{
+    position: relative;
+    top: -40rpx;
+    background-color: #fff;
+    border-radius: 40rpx;
+    padding: 20rpx;
+}
+.recommendList .listHeader{
+    height: 60rpx;
+    line-height: 60rpx;
+}
+.recommendList .listHeader .changeMore{
+    float: right;
+    font-size: 28rpx;
+    color: #333;
+}
+.scrollView{
+    height: calc(100vh - 360rpx);
+}
+.scrollItem{
+    position: relative;
+    display: flex;
+    margin-bottom: 20rpx;
+}
+.scrollItem .musicImg{
+    width: 80rpx;
+    height: 80rpx;
+    border-radius: 10rpx;
+}
+.scrollItem .musicContent{
+    display: flex;
+    flex-direction: column;
+    height: 80rpx;
+    margin-left: 30rpx;
+}
+.scrollItem .musicContent .musicName{
+    font-size: 26rpx;
+    max-width: 550rpx;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.scrollItem .musicContent .author{
+    font-size: 24rpx;
+}
+.scrollItem .radio{
+    position: absolute;
+    right: 0;
+    height: 80rpx;
+    line-height: 80rpx;
+}

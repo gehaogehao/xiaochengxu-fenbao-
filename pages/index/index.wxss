@@ -1,0 +1,99 @@
+.indexcontainer .navSwiper{
+    width: 100%;
+    height: 300rpx;
+}
+.indexcontainer .navSwiper image{
+    width: 100%;
+    height: 300rpx;
+}
+/* 导航区域 */
+.navContainer{
+    display: flex;
+}
+.navContainer .navItem{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navContainer .navItem .iconfont{
+    font-size: 50rpx;
+    width: 100rpx;
+    height: 100rpx;
+    background-color: rgb(240,19,19);
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    line-height: 100rpx;
+    margin: 20rpx 0;
+}
+.navContainer .navItem text{
+    font-size: 26rpx;
+}
+/* 推荐歌曲 */
+.recommendContainer{
+    padding: 40rpx 20rpx;
+}
+/* 滑动区域 */
+.scrollBar {
+    display: flex;
+    margin-top: 20rpx;
+    height: 300rpx;
+}
+.scrollBar .scrollItem{
+    display: flex;
+    flex-direction: column;
+    width: 200rpx;
+    margin-right: 20rpx;
+}
+.scrollBar .scrollItem image{
+    width: 200rpx;
+    height: 200rpx;
+    border-radius: 20rpx;
+}
+.scrollBar .scrollItem text{
+    font-size: 26rpx;
+    line-height: 40rpx;
+     /*white-space: nowrap;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;  /*webkit盒模型*/
+    -webkit-line-clamp:2;  /*控制行数*/
+    -webkit-box-orient: vertical;  /*规定框的子元素应该被水平或垂直排列。*/
+}
+/* 排行榜 */
+.topList{
+    padding: 0 20rpx;
+}
+.topList .topSwiper{
+    height: 460rpx;
+}
+.topList .swiperContent{
+    background-color: #f6f6f6;
+    width: 96%;
+    margin-right: 4%;
+}
+.topList .topSwiper .topItem .title{
+    font-size: 28rpx;
+    line-height: 80rpx;
+}
+.topList .topSwiper .topFooter{
+    display: flex;
+    margin-top: 20rpx;
+}
+.topList .topSwiper image{
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 10rpx;
+}
+.topList .topSwiper .topItem .topFooter .count{
+    width: 100rpx;
+    height: 100rpx;
+    text-align: center;
+    line-height: 100rpx;
+    font-weight: bold;
+}
+.topList .topSwiper .topItem .topFooter .musicName{
+    line-height: 100rpx;
+    font-size: 28rpx;
+}
